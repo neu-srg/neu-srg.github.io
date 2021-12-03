@@ -204,10 +204,10 @@ img {
 }
 
 .site-description {
-  margin: -5px 0 0 0;
+  margin: 5px 0 0 0;
   color: $neu-red;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
 
   @include mobile {
     margin: 3px 0;
@@ -303,21 +303,22 @@ footer {
 
 .faculty-table {
   display: grid;
-  padding: 20px;
+  padding: 15px 15px 35px 15px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
-  grid-gap: 10px;
+  grid-gap: 15px;
+  /*border: solid 1px;*/
 
   .faculty {
-    padding: 10px;
-    /*background-color: #f1f1f1;*/
-    /*border: 1px solid;*/
+    padding: 0 10px;
     width: 100%;
     margin: 10px;
     font-size: 15px;
+    /*background-color: #f1f1f1;*/
+    /*border: 1px solid;*/
   }
   .cropped {
     width: 280px; /* width of container */
-    height: 150px; /* height of container */
+    height: 170px; /* height of container */
     object-fit: cover;
   }
   .imgbox {
@@ -334,7 +335,7 @@ footer {
 .student-table {
   display: grid;
   padding: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 220px));
   grid-gap: 10px;
 
   .student {
@@ -345,6 +346,15 @@ footer {
     margin: 10px;
     font-size: 15px;
   }
+  .cropped {
+    width: 200px; /* width of container */
+    height: 170px; /* height of container */
+    object-fit: cover;
+  }
+  .imgbox {
+    text-align:center;
+  }
+
 }
 
 

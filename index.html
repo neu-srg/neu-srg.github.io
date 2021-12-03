@@ -6,17 +6,17 @@ layout: default
   {% assign sorted_faculty = site.data.faculties | sort: 'last' %}
   {% for faculty in sorted_faculty %}
   <div class="faculty">
-  <div class="imgbox">
-  <img src="{{ site.baseurl }}/images/faculty/{{ faculty.photo }}" class="cropped"/>
-  </div>
-  <h4>{{ faculty.first }} {{ faculty.last }}</h4>
-  <div class="researchbox">{{ faculty.research }}</div>
-  {% if faculty.personalweb %} 
-  <a href="{{ faculty.personalweb }}" target="_blank">[Personal webpage]</a>
-  {% endif %}
-  {% if faculty.groupweb %} 
-  <a href="{{ faculty.groupweb }}" target="_blank">[Lab webpage]</a>
-  {% endif %}
+    <div class="imgbox">
+      <img src="{{ site.baseurl }}/images/faculty/{{ faculty.photo }}" class="cropped"/>
+    </div>
+    <h4>{{ faculty.first }} {{ faculty.last }}</h4>
+    <div class="researchbox">{{ faculty.research }}</div>
+    {% if faculty.personalweb %} 
+    <a href="{{ faculty.personalweb }}" target="_blank">[Personal webpage]</a>
+    {% endif %}
+    {% if faculty.groupweb %} 
+    <a href="{{ faculty.groupweb }}" target="_blank">[Lab webpage]</a>
+    {% endif %}
   </div>
   {% endfor %}
 </div>
@@ -25,10 +25,17 @@ layout: default
   {% assign sorted_students = site.data.students | sort: 'last' %}
   {% for student in sorted_students %}
   <div class="student">
-  <h5>{{ student.first }} {{ student.last }}</h5>
-  Advisor(s): {{student.advisor1}}
-  {%if student.advisor2 %}/ {{ student.advisor2 }} {% endif %}
-  {%if student.advisor3 %}/ {{ student.advisor3 }} {% endif %}
+    <div class="imgbox">
+      {% if student.photo %}
+      <img src="{{ site.baseurl }}/images/students/{{ student.photo }}" class="cropped"/>
+      {% else %}
+      <img src="{{ site.baseurl }}/images/avatar.jpg" class="cropped"/>
+      {% endif %}
+    </div>
+    <h5>{{ student.first }} {{ student.last }}</h5>
+    Advisor(s): {{student.advisor1}}
+    {%if student.advisor2 %}/ {{ student.advisor2 }} {% endif %}
+    {%if student.advisor3 %}/ {{ student.advisor3 }} {% endif %}
   </div>
   {% endfor %}
 </div>

@@ -1,4 +1,4 @@
-## Setting up and testing jekyll locally.
+## Setting up and testing jekyll locally (Debian/Ubuntu).
 
 1. Install ruby and ruby-dev
 
