@@ -83,7 +83,10 @@ gems:
 collections:
   seminars:
     output: true
- 
+
+# Enable future dated posts 
+future: true
+
 # Exclude these files from your production _site
 exclude:
   - Gemfile
