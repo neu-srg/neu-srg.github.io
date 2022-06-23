@@ -1,12 +1,12 @@
 ---
 layout: seminar
-talk-title: Isolation in the cloud: control the system calls, control the attackers
+talk-title: Isolation in the cloud&#58 control the system calls, control the attackers
 speaker: Dan Williams
 affiliation: Virginia Tech
 speaker-webpage: https://people.cs.vt.edu/djwillia/
 date: Jun 29, 2022
 day: Wednesday
-time: 11:00 am 
+time: 11:00 am
 location: 366 WVH
 online: YES
 ---
