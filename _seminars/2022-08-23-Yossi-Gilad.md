@@ -1,6 +1,6 @@
 ---
 layout: seminar
-talk-title: Groove: Flexible Metadata-Private Messaging
+talk-title: "Groove: Flexible Metadata-Private Messaging"
 speaker: Yossi Gilad
 affiliation: Hebrew University of Jerusalem
 speaker-webpage: 
