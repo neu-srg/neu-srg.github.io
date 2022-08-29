@@ -10,7 +10,7 @@ layout: default
       <div class="titles">
 	<br/>
         <b>
-	Time: {{ post.date | date: "%b %d (%a)"}}
+	Time: {{ post.date | date: "%b %d (%a), %Y"}}
 	@ {{ post.time }},
         Location: {{ post.location }}
         {% if post.location %} {% if post.online %} and {% endif %}{% endif %}
