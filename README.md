@@ -59,5 +59,5 @@ http://127.0.0.1:4000/
 * The group member information is in the \_data directory as tsv (tab separated values) files.
 * The first row of each file shows the attribute names of the members in the file.
 * Add/remove/modify the information about group members following the existing tsv format.  
-* The profile photos should be stored in images/faculty or images/students directories. Image file names in these directories should be referenced in the tsv files in the \_data directory to link the photo to the profile.
+* The profile photos should be stored in images/faculty and images/students directories. Image file names in these directories should be referenced in the tsv files in the \_data directory to link the photo to the profile.
 
