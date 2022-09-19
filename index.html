@@ -36,6 +36,10 @@ layout: default
     Advisor(s): {{student.advisor1}}
     {%if student.advisor2 %}/ {{ student.advisor2 }} {% endif %}
     {%if student.advisor3 %}/ {{ student.advisor3 }} {% endif %}
+    {% if student.personalweb %}
+    </br>
+    <a href="{{ student.personalweb }}" target="_blank">[Personal webpage]</a>
+    {% endif %}
   </div>
   {% endfor %}
 </div>
