@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<h3> Seminars </h3>
 <div class="posts">
   {% assign sorted = site.seminars | sort: 'date' | reverse %}
   {% for post in sorted %}

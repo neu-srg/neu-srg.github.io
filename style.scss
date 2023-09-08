@@ -357,7 +357,21 @@ footer {
 
 }
 
+.event-table {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(max-content, max-content));
+  grid-gap: 10px;
 
+  .event {
+    padding: 10px;
+    /*background-color: #f1f1f1;*/
+    /*border: 1px solid;*/
+    width: 100%;
+    margin: 10px;
+    font-size: 15px;
+  }
+}
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
