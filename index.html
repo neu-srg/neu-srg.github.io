@@ -22,7 +22,7 @@ layout: default
 </div>
 <h3> Students </h3>
 <div class="student-table">
-  {% assign sorted_students = site.data.students | sort: 'last' %}
+  {% assign sorted_students = site.data.students | where: 'current', 'TRUE' | sort: 'last' %}
   {% for student in sorted_students %}
   <div class="student">
     <div class="imgbox">
@@ -43,6 +43,28 @@ layout: default
   </div>
   {% endfor %}
 </div>
-
+<h3> Recent Alumni</h3>
+<div class="student-table">
+  {% assign sorted_students = site.data.students | where: 'current', 'FALSE' | sort: 'last' %}
+  {% for student in sorted_students %}
+  <div class="student">
+    <div class="imgbox">
+      {% if student.photo %}
+      <img src="{{ site.baseurl }}/images/students/{{ student.photo }}" class="cropped"/>
+      {% else %}
+      <img src="{{ site.baseurl }}/images/avatar.jpg" class="cropped"/>
+      {% endif %}
+    </div>
+    <h5>{{ student.first }} {{ student.last }}</h5>
+    Advisor(s): {{student.advisor1}}
+    {%if student.advisor2 %}/ {{ student.advisor2 }} {% endif %}
+    {%if student.advisor3 %}/ {{ student.advisor3 }} {% endif %}
+    {% if student.personalweb %}
+    </br>
+    <a href="{{ student.personalweb }}" target="_blank">[Personal webpage]</a>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
 
 </div>
