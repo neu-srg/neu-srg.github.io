@@ -1,16 +1,18 @@
-first	last	advisor1	advisor2	advisor3	personalweb	photo	research
-Jian	Zhang	Tan			https://www.khoury.northeastern.edu/home/zhangjian3/ 			
-Twinkle	Jain	Cooperman				jain.jpg	
-Yao	Xu	Cooperman					
-Tarun	Malviya	Cooperman					
-Paul	Grosu	Cooperman				grosu.jpg	
-Ryan (Cheng Hao)	Yang	Nita-Rotaru	Shin		https://hare1039.github.io/		
-Mania	Abdi	Desnoyers				abdi.jpg	
-Yiryong	Wang	Desnoyers					
-Peng	Gu	Desnoyers				gu.jpg	
-Bryant	Curto	Shin			https://www.bryantcurto.com	curto.jpg	
-Brent (Yibo)	Zhao	Tan				zhao.jpg	
-Isaac	Khor	Desnoyers					
-Rajat Pratap Singh	Bisht	Cooperman					
-Aayushi	Gautam	Cooperman					
-Rui	Li	Cooperman					
+first	last	advisor1	advisor2	advisor3	personalweb	photo	research	current
+Jian	Zhang	Tan			https://www.khoury.northeastern.edu/home/zhangjian3/ 			TRUE
+Twinkle	Jain	Cooperman				jain.jpg		TRUE
+Yao	Xu	Cooperman						TRUE
+Tarun	Malviya	Cooperman						TRUE
+Paul	Grosu	Cooperman				grosu.jpg		TRUE
+Ryan (Cheng Hao)	Yang	Nita-Rotaru	Shin		https://hare1039.github.io/			FALSE
+Mania	Abdi	Desnoyers				abdi.jpg		FALSE
+Yiryong	Wang	Desnoyers				wang.jpg		TRUE
+Peng	Gu	Tan				gu.jpg		TRUE
+Bryant	Curto	Shin			https://www.bryantcurto.com	curto.jpg		TRUE
+Brent (Yibo)	Zhao	Tan				zhao.jpg		TRUE
+Isaac	Khor	Desnoyers						TRUE
+Rajat Pratap Singh	Bisht	Cooperman						FALSE
+Aayushi	Gautam	Cooperman				gautum.jpg		TRUE
+Rui	Li	Cooperman				li.jpg		TRUE
+Shuwen	Sun	Desnoyers				sun.jpg		TRUE
+Sina	Ahmadi	Desnoyers						TRUE
