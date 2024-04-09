@@ -1,6 +1,18 @@
 ---
 layout: default
 ---
+<div class="posts">
+<h3> Paper reading group meetings </h3>
+<div class="posts">
+<br />
+<a href="https://naizhengtan.notion.site/SIGPAPER-FA-2022-029b420e270348069d04865c086974ed">2022FA</a> |
+<a href="https://naizhengtan.notion.site/SIGPAPER-SP-2023-b1a87e4eb20e49e795aaa345b98820c8">2023SP</a> |
+<a href="https://naizhengtan.notion.site/SIGPAPER-FA-2023-1e8896455cf74b39ba14271a38726a37">2023FA</a> |
+<a href="https://naizhengtan.notion.site/SIGPAPER-SP-2024-fffa52714baf48778c31b9754e3ca796">2024SP</a>
+<br />
+<br />
+</div>
+</div>
 <h3> Seminars </h3>
 <div class="posts">
   {% assign sorted = site.seminars | sort: 'date' | reverse %}
