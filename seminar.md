@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="posts">
-<h3> Paper reading group meetings </h3>
+<h3> Internal Paper reading group meetings </h3>
 <div class="posts">
 <br />
 <a href="https://naizhengtan.notion.site/SIGPAPER-FA-2022-029b420e270348069d04865c086974ed">2022FA</a> |
@@ -13,7 +13,7 @@ layout: default
 <br />
 </div>
 </div>
-<h3> Seminars </h3>
+<h3> Seminars with External Speakers</h3>
 <div class="posts">
   {% assign sorted = site.seminars | sort: 'date' | reverse %}
   {% for post in sorted %}
