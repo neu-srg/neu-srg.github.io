@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="posts">
-<h3> Internal Paper reading group meetings </h3>
+<h3> Internal Paper Reading Group Meetings </h3>
 <div class="posts">
 <br />
 <a href="https://naizhengtan.notion.site/SIGPAPER-FA-2022-029b420e270348069d04865c086974ed">2022FA</a> |
