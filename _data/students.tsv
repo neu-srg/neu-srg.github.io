@@ -1,7 +1,7 @@
 first	last	advisor1	advisor2	advisor3	personalweb	photo	research	current
-Jian	Zhang	Tan			https://www.khoury.northeastern.edu/home/zhangjian3/ 			TRUE
+Jian	Zhang	Tan			https://www.khoury.northeastern.edu/home/zhangjian3/ 	zhang.jpg		TRUE
 Twinkle	Jain	Cooperman				jain.jpg		TRUE
-Yao	Xu	Cooperman						TRUE
+Yao	Xu	Cooperman			https://www.khoury.northeastern.edu/home/yaoxu/	xu.jpg		TRUE
 Tarun	Malviya	Cooperman						FALSE
 Paul	Grosu	Cooperman				grosu.jpg		FALSE
 Ryan (Cheng Hao)	Yang	Shin			https://hare1039.github.io/			FALSE
