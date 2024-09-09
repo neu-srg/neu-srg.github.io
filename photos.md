@@ -5,11 +5,13 @@ layout: default
 <h3> Photos </h3>
 <div class="posts">
 <br />
+{% for item in site.data.photos %}
 <figure>
-	<img src="{{ site.baseurl }}/images/group_photos/2024_systems_day.jpg" alt="2024 Systems Day">
-	<figcaption> 2024 Systems Day </figcaption>
+	<img src="{{ site.baseurl }}/images/group_photos/{{ item.file }}" alt="{{ item.year }} {{ item.caption }}">
+	<figcaption> {{ item.year }} {{ item.caption }} </figcaption>
 </figure>
 <br />
+{% endfor %}
 <br />
 </div>
 </div>
