@@ -1,6 +1,6 @@
 first	last	advisor1	advisor2	advisor3	personalweb	photo	research	current
 Jian	Zhang	Tan			https://www.khoury.northeastern.edu/home/zhangjian3/ 	zhang.jpg		TRUE
-Twinkle	Jain	Cooperman				jain.jpg		TRUE
+Twinkle	Jain	Cooperman				jain.jpg		FALSE
 Yao	Xu	Cooperman			https://www.khoury.northeastern.edu/home/yaoxu/	xu.jpg		TRUE
 Tarun	Malviya	Cooperman						FALSE
 Paul	Grosu	Cooperman				grosu.jpg		FALSE
@@ -13,7 +13,7 @@ Brent (Yibo)	Zhao	Tan				zhao.jpg		TRUE
 Isaac	Khor	Desnoyers			https://www.isaackhor.com	khor.jpg		TRUE
 Rajat Pratap Singh	Bisht	Cooperman						FALSE
 Aayushi	Gautam	Cooperman				gautum.jpg		TRUE
-Rui	Li	Cooperman				li.jpg		TRUE
+Rui	Li	Cooperman			https://liruivah.github.io/	li.jpg		TRUE
 Shuwen	Sun	Desnoyers				sun.jpg		TRUE
 Sina	Ahmadi	Desnoyers			https://sinashan.github.io	ahmadi.jpg		TRUE
 Alan	Wang	Shin						TRUE
