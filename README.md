@@ -32,7 +32,7 @@ $ bundle install
 5. Note that the baseurl in the \_config.yml file for deployment and local testing should be configured differently: "/" for deployment and "" for local testing. The yml file is configured with baseurl "/".
 
 6. To test the webpage locally use the command below. Note that the baseurl
-   in the \_config.yml file is overridden using --baseurl "" 
+   in the \_config.yml file is overridden using --baseurl "".
 
 ```
 $ bundle exec jekyll serve --config _config.yml --baseurl ""
