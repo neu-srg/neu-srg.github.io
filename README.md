@@ -29,12 +29,13 @@ $ bundle add jekyll
 $ bundle install
 ```
 
-5. Due to the baseurl we use two different configuration files: one (\_config.yml) for github page and the other (\_config\_dev.yml) for development. The only difference between these two are the baseurl so if you change either one of the files make sure the same changes are applied to the other file as well.
+5. Note that the baseurl in the \_config.yml file for deployment and local testing should be configured differently: "/" for deployment and "" for local testing. The yml file is configured with baseurl "/".
 
-6. To test the webpage locally use the \_config\_dev.yml file.
+6. To test the webpage locally use the command below. Note that the baseurl
+   in the \_config.yml file is overridden using --baseurl "" 
 
 ```
-$ bundle exec jekyll serve --config _config_dev.yml
+$ bundle exec jekyll serve --config _config.yml --baseurl ""
 ...
 ...
 Server address: http://127.0.0.1:4000
