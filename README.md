@@ -89,7 +89,7 @@ http://127.0.0.1:4000/
 ## Adding entries to photos page 
 
 * The relevant information is in the \_data/photos.tsv file.
-* The photos should be uploaded to images/\_group\_photos directory. The photo
+* The photos should be uploaded to images/group\_photos directory. The photo
   width should be 1024 px.
 * The file name of the photo should be added to the tsv file above.  
 
