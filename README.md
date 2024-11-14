@@ -14,6 +14,10 @@ $ echo 'export PATH=$HOME/gems/bin:$PATH' >> ~/.bashrc
 $ source ~/.bashrc
 ```
 
+Note: On MacOS, you can install ruby and jekyll following the documentation:
+https://jekyllrb.com/docs/installation/macos/
+Then go to step 3.
+
 3. Install bundler jekyll and rails
 
 ```
