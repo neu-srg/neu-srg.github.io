@@ -4,7 +4,7 @@ talk-title: "Databases Robust and Reliable: from SQL Generation to Test-Oracle C
 speaker: Zu-Ming Jiang
 affiliation: ETH Zurich
 speaker-webpage:
-date: September 18th, 2024
+date: September 18, 2024
 day: Wednesday
 time: 10:30 am 
 location: 
