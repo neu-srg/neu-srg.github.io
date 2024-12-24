@@ -1,21 +1,21 @@
 first	last	advisor1	advisor2	advisor3	personalweb	photo	research	current
-Jian	Zhang	Tan			https://www.khoury.northeastern.edu/home/zhangjian3/ 	zhang.jpg		TRUE
+Jian	Zhang	Tan			https://www.khoury.northeastern.edu/home/zhangjian3/ 	zhang_X.jpg		TRUE
 Twinkle	Jain	Cooperman				jain.jpg		FALSE
-Yao	Xu	Cooperman			https://www.khoury.northeastern.edu/home/yaoxu/	xu.jpg		TRUE
+Yao	Xu	Cooperman			https://www.khoury.northeastern.edu/home/yaoxu/	xu_X.jpg		TRUE
 Tarun	Malviya	Cooperman						FALSE
 Paul	Grosu	Cooperman				grosu.jpg		FALSE
 Ryan (Cheng Hao)	Yang	Shin			https://hare1039.github.io/			FALSE
 Mania	Abdi	Desnoyers				abdi.jpg		FALSE
-Effy (Yirong)	Wang	Desnoyers				wang.jpg		TRUE
-Peng	Gu	Tan				gu.jpg		FALSE
-Bryant	Curto	Shin			https://www.bryantcurto.com	curto.jpg		TRUE
-Brent (Yibo)	Zhao	Tan				zhao.jpg		TRUE
-Isaac	Khor	Desnoyers			https://www.isaackhor.com	khor.jpg		TRUE
+Effy (Yirong)	Wang	Desnoyers				wang_X.jpg		TRUE
+Peng	Gu	Tan				gu_X.jpg		FALSE
+Bryant	Curto	Shin			https://www.bryantcurto.com	curto_X.jpg		TRUE
+Brent (Yibo)	Zhao	Tan				zhao_X.jpg		TRUE
+Isaac	Khor	Desnoyers			https://www.isaackhor.com	khor_X.jpg		TRUE
 Rajat Pratap Singh	Bisht	Cooperman						FALSE
 Aayushi	Gautam	Cooperman				gautum.jpg		TRUE
-Rui	Li	Cooperman			https://liruivah.github.io/	li.jpg		TRUE
-Shuwen	Sun	Desnoyers				sun.jpg		TRUE
-Sina	Ahmadi	Desnoyers			https://sinashan.github.io	ahmadi.jpg		TRUE
+Rui	Li	Cooperman			https://liruivah.github.io/	li_X.jpg		TRUE
+Shuwen	Sun	Desnoyers				sun_X.jpg		TRUE
+Sina	Ahmadi	Desnoyers			https://sinashan.github.io	ahmadi_X.jpg		TRUE
 Alan	Wang	Shin						TRUE
-Zikai	Wang	Tan				z_wang.jpg		TRUE
-Shuyi	Lin	Tan				lin.jpg		TRUE
+Zikai	Wang	Tan				z_wang_X.jpg		TRUE
+Shuyi	Lin	Tan				lin_X.jpg		TRUE
