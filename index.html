@@ -7,7 +7,11 @@ layout: default
   {% for faculty in sorted_faculty %}
   <div class="faculty">
     <div class="imgbox">
+      {% if faculty.photo %}
       <img src="{{ site.baseurl }}/images/faculty/{{ faculty.photo }}" class="cropped"/>
+      {% else %}
+      <img src="{{ site.baseurl }}/images/avatar.jpg" class="cropped"/>
+      {% endif %}
     </div>
     <h4>{{ faculty.first }} {{ faculty.last }}</h4>
     <div class="researchbox">{{ faculty.research }}</div>
