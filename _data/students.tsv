@@ -1,4 +1,4 @@
-first	last	advisor1	advisor2	advisor3	personalweb	photo	research	current
+first	last	advisor1	advisor2	advisor3	personalweb	photo	research	current	
 Jian	Zhang	Tan			https://www.khoury.northeastern.edu/home/zhangjian3/ 	zhang.jpg		TRUE
 Twinkle	Jain	Cooperman				jain.jpg		FALSE
 Yao	Xu	Cooperman			https://www.khoury.northeastern.edu/home/yaoxu/	xu.jpg		TRUE
@@ -20,3 +20,4 @@ Alan	Wang	Shin						FALSE
 Zikai	Wang	Tan				z_wang.jpg		TRUE
 Shuyi	Lin	Tan				lin.jpg		TRUE
 Mehbubul Hasan	Al-Quvi	Ren			https://quvi007.github.io			TRUE
+Seo-ye	Kim	Shin			https://kimseoye.github.io/about.html			Visiting
