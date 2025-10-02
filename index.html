@@ -24,7 +24,7 @@ layout: default
   </div>
   {% endfor %}
 </div>
-<h3> Students </h3>
+<h3> Ph.D. Students </h3>
 <div class="student-table">
   {% assign sorted_students = site.data.students | where: 'current', 'TRUE' | sort: 'last' %}
   {% for student in sorted_students %}
