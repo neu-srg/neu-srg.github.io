@@ -13,8 +13,8 @@ online: YES
 
 **Abstract:**
 
-Coming soon
+vLLM is a fast and easy-to-use library for LLM inference and serving. In this talk, I will briefly introduce the evolution of the vLLM project, the open-source community behind it, and highlight some features that are of interest to many users.
 
 **Bio:**
 
-Coming soon
+Kaichao You gets a Ph.D. degree from Tsinghua University. He is working on the vLLM project, a high-throughput and memory-efficient inference and serving engine for LLMs. He is also an open-source contributor to PyTorch/Triton.
