@@ -60,6 +60,10 @@ http://127.0.0.1:4000/
   file.
 * Add/remove/modify the information about group members following the existing
   tsv format.  
+* The `current` column in students.tsv controls which section a student appears
+  in: `TRUE` (Ph.D. Students), `FALSE` (Recent Alumni), `Visiting` (Visiting
+  Students), `PastVisiting` (Past Visiting Students). The visiting sections
+  are only shown when non-empty.
 * The profile photos should be stored in images/faculty and images/students
   directories. Image file names in these directories should be referenced in the
   tsv files in the \_data directory to link the photo to the profile.
