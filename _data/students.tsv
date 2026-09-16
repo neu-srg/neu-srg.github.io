@@ -1,7 +1,7 @@
 first	last	advisor1	advisor2	advisor3	personalweb	photo	research	current	
 Jian	Zhang	Tan			https://www.khoury.northeastern.edu/home/zhangjian3/ 	zhang.jpg		TRUE
 Twinkle	Jain	Cooperman				jain.jpg		FALSE
-Yao	Xu	Cooperman			https://www.khoury.northeastern.edu/home/yaoxu/	xu.jpg		TRUE
+Yao	Xu	Cooperman			https://xuyao00.github.io/	xu.jpg		TRUE
 Tarun	Malviya	Cooperman						FALSE
 Paul	Grosu	Cooperman				grosu.jpg		FALSE
 Ryan (Cheng Hao)	Yang	Shin			https://hare1039.github.io/			FALSE
@@ -12,7 +12,7 @@ Bryant	Curto	Shin			https://www.bryantcurto.com	curto.jpg		TRUE
 Brent (Yibo)	Zhao	Tan				zhao.jpg		TRUE
 Isaac	Khor	Desnoyers			https://www.isaackhor.com	khor.jpg		TRUE
 Rajat Pratap Singh	Bisht	Cooperman						FALSE
-Aayushi	Gautam	Cooperman				gautum.jpg		TRUE
+Aayushi	Gautam	Cooperman			https://aayushi363.github.io/	gautum.jpg		TRUE
 Rui	Li	Cooperman			https://liruivah.github.io/	li.jpg		TRUE
 Shuwen	Sun	Desnoyers				sun.jpg		FALSE
 Sina	Ahmadi	Desnoyers			https://sinashan.github.io	ahmadi.jpg		TRUE
@@ -20,5 +20,7 @@ Alan	Wang	Shin						FALSE
 Zikai	Wang	Tan				z_wang.jpg		TRUE
 Shuyi	Lin	Tan			https://shuyilinn.github.io/	lin.jpg		TRUE
 Mehbubul Hasan	Al-Quvi	Ren			https://quvi007.github.io			TRUE
-Seo-ye	Kim	Shin			https://kimseoye.github.io/about.html			Visiting
 Yifei	Sun	Shin			https://ysun.co	sun2.jpg		FALSE
+Site	Fan	Ren			https://fanst.cc	fan.jpg		TRUE
+Sooyoung	Lim	Shin			https://sooyounglim.github.io/	lim.jpg		TRUE
+Seo-ye	Kim	Shin			https://kimseoye.github.io/about.html			PastVisiting
