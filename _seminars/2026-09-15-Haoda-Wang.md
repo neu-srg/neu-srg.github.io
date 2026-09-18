@@ -8,6 +8,7 @@ date: September 15, 2026
 day: Tuesday
 time: 11:30 am
 location: Kariotis 302
+online: NO
 ---
 
 **Abstract:**
